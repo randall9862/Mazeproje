@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
 {
     public bool walking = false;
 
+    public bool canMove = true;
+
     [Space]
     public Transform currentCube;
     public Transform clickedCube;
@@ -38,7 +40,8 @@ public class PlayerController : MonoBehaviour
         {
             transform.parent = null;
         }
-
+       // 增加檢查 canMove
+        if (!canMove) return;
         // CLICK ON CUBE
         if (Input.GetMouseButtonDown(0))
         {
@@ -186,7 +189,17 @@ public class PlayerController : MonoBehaviour
             Gizmos.DrawRay(ray);
         }
     }
-
+ // 新增公開方法來控制玩家移動
+    public void SetPlayerMovement(bool enabled)
+    {
+        canMove = enabled;
+        // 如果禁用移動時玩家正在走路，強制停止當前移動
+        if (!enabled && walking)
+        {
+            DOTween.Kill(gameObject.transform);
+            Clear();
+        }
+    }
     void SetBlend(float x)
     {
         animator.SetFloat("Blend", x);
