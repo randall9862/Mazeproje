@@ -1,74 +1,88 @@
-using System.Collections;
-using System.Collections.Generic;
+Ôªøusing System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Relicmagnification : MonoBehaviour//øÚ™´©Ò§j
+public class RelicMagnification : MonoBehaviour
 {
-    public Transform targetPosition; // •Œ®”¿x¶s•ÿº–™´•Û™∫Transform≤’•Û
-    public RectTransform uiPosition; // UI§∏Ø¿™∫RectTransform≤’•Û
-    public float moveSpeed = 5f; // ≤æ∞ ≥t´◊
-    public float scaleSpeed = 3f; // ¡Y©Ò≥t´◊
-    public float targetScale = 1.5f; // •ÿº–©Ò§j≠øº∆
+    public RectTransform uiPosition;         
+    public float moveSpeed = 5f;             
+    public float scaleSpeed = 3f;            
+    public float targetScale = 1.5f;         
 
-    private Vector3 originalPosition; // ¿x¶s≠Ï©l¶Ï∏m
-    private Vector3 originalScale; // ¿x¶s≠Ï©l§j§p
-    private bool canRestore = false; // ¨Oß_•i•H´Ï¥_
-    private bool isAnimating = false; // ¨Oß_•ø¶b∞ µe§§
+    private Vector3 originalPosition;        
+    private Vector3 originalScale;           
+    private bool canRestore = false;         
+    private bool isAnimating = false;        
 
     void Start()
     {
         if (uiPosition != null)
         {
-            // ´O¶s≠Ï©l¶Ï∏m©M§j§p
             originalPosition = uiPosition.position;
-            originalScale = uiPosition.localScale;           
+            originalScale = uiPosition.localScale;
         }
+        else
+        {
+            Debug.LogWarning("UI Position (RectTransform) is not assigned.");
+        }
+        
     }
 
     void Update()
     {
-        // ¿À¨d¨Oß_•i•H´Ï¥_•B¶≥¬I¿ª
         if (canRestore && Input.GetMouseButtonDown(0) && !isAnimating)
         {
             StartCoroutine(RestoreUI());
         }
     }
-    public void swichfication()
+
+    // ‰øÆÊîπÂæåÁöÑ SwitchMagnification ÊñπÊ≥ï
+    public void SwitchMagnification()
     {
-        StartCoroutine(MoveAndScaleUI());//§Ë™k
+        if (uiPosition != null)
+        {
+            StartCoroutine(DelayedMagnification());
+        }
+    }
+
+    // Êñ∞Â¢ûÂª∂ÈÅ≤Âü∑Ë°åÁöÑÂçîÁ®ã
+    private IEnumerator DelayedMagnification()
+    {
+        yield return new WaitForSeconds(3f); // Á≠âÂæÖ 2 Áßí
+        StartCoroutine(MoveAndScaleUI());
     }
 
     IEnumerator MoveAndScaleUI()
     {
         isAnimating = true;
+
         Vector3 startPosition = uiPosition.position;
         Vector3 startScale = uiPosition.localScale;
-        Vector3 targetScale = Vector3.one * this.targetScale;
+        Vector3 targetScaleVector = Vector3.one * targetScale;
+
+        Vector3 targetScreenPos = new Vector3(Screen.width / 2, Screen.height / 2, 0);
+
         float moveProgress = 0f;
         float scaleProgress = 0f;
 
         while (moveProgress < 1f || scaleProgress < 1f)
         {
-            // ßÛ∑s≤æ∞ 
             if (moveProgress < 1f)
             {
                 moveProgress += Time.deltaTime * moveSpeed;
-                uiPosition.position = Vector3.Lerp(startPosition, targetPosition.position, moveProgress);
+                uiPosition.position = Vector3.Lerp(startPosition, targetScreenPos, moveProgress);
             }
 
-            // ßÛ∑s¡Y©Ò
             if (scaleProgress < 1f)
             {
                 scaleProgress += Time.deltaTime * scaleSpeed;
-                uiPosition.localScale = Vector3.Lerp(startScale, targetScale, scaleProgress);
+                uiPosition.localScale = Vector3.Lerp(startScale, targetScaleVector, scaleProgress);
             }
 
             yield return null;
         }
 
         isAnimating = false;
-        // µ•´›3¨Ì´·§π≥\´Ï¥_
         yield return new WaitForSeconds(3f);
         canRestore = true;
     }
@@ -76,21 +90,21 @@ public class Relicmagnification : MonoBehaviour//øÚ™´©Ò§j
     IEnumerator RestoreUI()
     {
         isAnimating = true;
+
         Vector3 startPosition = uiPosition.position;
         Vector3 startScale = uiPosition.localScale;
+
         float moveProgress = 0f;
         float scaleProgress = 0f;
 
         while (moveProgress < 1f || scaleProgress < 1f)
         {
-            // ßÛ∑s≤æ∞ 
             if (moveProgress < 1f)
             {
                 moveProgress += Time.deltaTime * moveSpeed;
                 uiPosition.position = Vector3.Lerp(startPosition, originalPosition, moveProgress);
             }
 
-            // ßÛ∑s¡Y©Ò
             if (scaleProgress < 1f)
             {
                 scaleProgress += Time.deltaTime * scaleSpeed;

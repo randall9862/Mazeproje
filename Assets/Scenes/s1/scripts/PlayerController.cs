@@ -21,10 +21,18 @@ public class PlayerController : MonoBehaviour
     private float blend;
     private Animator animator;
 
+    [SerializeField] private GameObject[] managedObjects;
+    private ObjectSwitcher objectSwitcher;
+
+    public FloatingObject floatingObject;
+    public RelicMagnification relicMagnification;
+    public FragmentMerge fragmentMerge;
+
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
         RayCastDown();
+        objectSwitcher = new ObjectSwitcher(managedObjects);
     }
 
     void Update()
@@ -148,6 +156,39 @@ public class PlayerController : MonoBehaviour
             s.AppendCallback(() => GameManager.instance.RotateRightPivot());
         }
 
+        if (clickedCube.GetComponent<Walkable>().blueShard)
+        {
+            s.AppendCallback(() => {
+                clickedCube.GetComponent<Walkable>().blueShard = false;
+                objectSwitcher.TurnOnAt(0);
+                relicMagnification.SwitchMagnification();
+                fragmentMerge.StartEnlargeEffect(0);
+                floatingObject.DisableRelicsbiue();
+                floatingObject.SetObjectMaterial(0, 0);
+            });
+        }
+        if (clickedCube.GetComponent<Walkable>().greenShard)
+        {
+            s.AppendCallback(() => {
+                clickedCube.GetComponent<Walkable>().greenShard = false;
+                objectSwitcher.TurnOnAt(1);
+                relicMagnification.SwitchMagnification();
+                fragmentMerge.StartEnlargeEffect(1);
+                floatingObject.DisableRelicsgreen();
+                floatingObject.SetObjectMaterial(1, 1);
+            });
+        }
+        if (clickedCube.GetComponent<Walkable>().redShard)
+        {
+            s.AppendCallback(() => {
+                clickedCube.GetComponent<Walkable>().redShard = false;
+                objectSwitcher.TurnOnAt(2);
+                relicMagnification.SwitchMagnification();
+                fragmentMerge.StartEnlargeEffect(2);
+                floatingObject.DisableRelicsred();
+                floatingObject.SetObjectMaterial(2, 2);
+            });
+        }
         s.AppendCallback(() => Clear());
     }
 

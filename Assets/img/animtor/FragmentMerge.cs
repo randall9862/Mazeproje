@@ -5,17 +5,17 @@ using UnityEngine.UI;
 
 public class FragmentMerge : MonoBehaviour
 {
-    public Image[] fragments; // ¤T­Ó¸H¤ù
-    public float scaleDuration = 1f; // ©ñ¤j®É¶¡
-    public Vector3 enlargedScale = new Vector3(1.5f, 1.5f, 1f); // ©ñ¤j¤ñ¨Ò
+    public Image[] fragments; // Ó¸H
+    public float scaleDuration = 1f; // ï¿½ï¿½jï¿½É¶ï¿½
+    public Vector3 enlargedScale = new Vector3(1.5f, 1.5f, 1f); // ï¿½ï¿½jï¿½ï¿½ï¿½
 
     void Start()
     {
-        // Åý©Ò¦³¸H¤ùÅÜ³z©ú
+        // ï¿½ï¿½ï¿½Ò¦ï¿½ï¿½Hï¿½ï¿½ï¿½Ü³zï¿½ï¿½
         foreach (var fragment in fragments)
         {
             Color color = fragment.color;
-            color.a = 0.3f; // ³]©w³z©ú«×¬° 0
+            color.a = 0.3f; // ï¿½]ï¿½wï¿½zï¿½ï¿½ï¿½×¬ï¿½ 0
             fragment.color = color;
         }
     }
@@ -24,8 +24,14 @@ public class FragmentMerge : MonoBehaviour
     {
         if (fragmentIndex >= 0 && fragmentIndex < fragments.Length)
         {
-            StartCoroutine(EnlargeAndFadeIn(fragments[fragmentIndex]));
+            StartCoroutine(DelayedEnlargeEffect(fragmentIndex));
         }
+    }
+
+    private IEnumerator DelayedEnlargeEffect(int fragmentIndex)
+    {
+        yield return new WaitForSeconds(2.5f); // ç­‰å¾… 2 ç§’
+        StartCoroutine(EnlargeAndFadeIn(fragments[fragmentIndex]));
     }
 
     IEnumerator EnlargeAndFadeIn(Image fragment)

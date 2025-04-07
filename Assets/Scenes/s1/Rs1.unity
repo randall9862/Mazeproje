@@ -310,6 +310,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &48132828
@@ -516,6 +519,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &76211460
@@ -575,6 +581,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &76211463
@@ -705,6 +714,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &77435103
@@ -835,6 +847,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &81541526
@@ -908,6 +923,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81541523}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &88640201
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1993457090}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 185.59904
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 56.382004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.71
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6307178247f3ea4faaf3b8b5697de5f, type: 2}
+    - target: {fileID: 919132149155446097, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+      propertyPath: m_Name
+      value: "\u6A4B "
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
 --- !u!1 &103135873
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +1053,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &103135876
@@ -1042,6 +1129,96 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103135873}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &109521270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 109521271}
+  - component: {fileID: 109521273}
+  - component: {fileID: 109521272}
+  - component: {fileID: 109521274}
+  m_Layer: 5
+  m_Name: green
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &109521271
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109521270}
+  m_LocalRotation: {x: -0, y: -0, z: -0.000000014901161, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1657485059}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &109521272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109521270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2e2d56a9d2f9b704b8f2034a0681fbcd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &109521273
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109521270}
+  m_CullTransparentMesh: 1
+--- !u!114 &109521274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109521270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a618bef21db3544b906ffc70bee283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imgPiece: {fileID: 109521272}
+  targetUI: {fileID: 1005234234}
 --- !u!1 &122945339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,6 +1278,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &122945342
@@ -1379,6 +1559,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 1
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &180077307
@@ -1509,6 +1692,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 1
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &196111122
@@ -1568,6 +1754,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &196111125
@@ -1773,6 +1962,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &260486742
@@ -1903,6 +2095,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1001 &312126574
@@ -1911,7 +2106,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 685475340}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 889815d13fbf3bd4588e456ae231963d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1919,11 +2114,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 889815d13fbf3bd4588e456ae231963d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.249999
+      value: -5.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 889815d13fbf3bd4588e456ae231963d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.3
+      value: 10.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 889815d13fbf3bd4588e456ae231963d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2010,8 +2205,16 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 685475340}
     m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f634e9e66dfc3174397eb566252d7822, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 167.02827
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f634e9e66dfc3174397eb566252d7822, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 9.297828
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f634e9e66dfc3174397eb566252d7822, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.31
@@ -2034,7 +2237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f634e9e66dfc3174397eb566252d7822, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f634e9e66dfc3174397eb566252d7822, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2224,6 +2427,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1750340587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &400944877 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bfc9ab37b993f624ea60f5ebcdec72b8, type: 3}
+  m_PrefabInstance: {fileID: 88640201}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &401072925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,6 +2560,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &402573251
@@ -2411,6 +2622,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &402573254
@@ -2671,7 +2885,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 685475340}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1322527f68a70db4f9b60480e254501d, type: 3}
       propertyPath: m_LocalScale.x
@@ -2849,6 +3063,96 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1928827862}
   m_SourcePrefab: {fileID: 100100000, guid: a6e50779c0943dd499742e9d596235b9, type: 3}
+--- !u!1 &460840074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 460840075}
+  - component: {fileID: 460840078}
+  - component: {fileID: 460840077}
+  - component: {fileID: 460840079}
+  m_Layer: 5
+  m_Name: blue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &460840075
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460840074}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1657485059}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &460840077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460840074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a2be214fb4744f94da8cbcad9e2a9e85, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &460840078
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460840074}
+  m_CullTransparentMesh: 1
+--- !u!114 &460840079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460840074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a618bef21db3544b906ffc70bee283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imgPiece: {fileID: 460840077}
+  targetUI: {fileID: 1005234234}
 --- !u!1 &469044884
 GameObject:
   m_ObjectHideFlags: 0
@@ -2977,8 +3281,16 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
+--- !u!4 &472219993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c55e3627933229b4199b46498dc6263d, type: 3}
+  m_PrefabInstance: {fileID: 513180328}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &474492574
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,6 +3419,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &493090773
@@ -3237,8 +3552,101 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
+--- !u!1 &498947745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 498947746}
+  - component: {fileID: 498947748}
+  - component: {fileID: 498947747}
+  - component: {fileID: 498947749}
+  m_Layer: 5
+  m_Name: red
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &498947746
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498947745}
+  m_LocalRotation: {x: -0, y: -0, z: 0.000000014901161, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1657485059}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &498947747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498947745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 453232b878706aa4e85c47e4da623cff, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &498947748
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498947745}
+  m_CullTransparentMesh: 1
+--- !u!114 &498947749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498947745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a618bef21db3544b906ffc70bee283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imgPiece: {fileID: 498947747}
+  targetUI: {fileID: 1005234234}
 --- !u!1 &504259711
 GameObject:
   m_ObjectHideFlags: 0
@@ -3296,6 +3704,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &504259714
@@ -3426,6 +3837,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &505376787
@@ -3505,7 +3919,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 685475340}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c55e3627933229b4199b46498dc6263d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3513,7 +3927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c55e3627933229b4199b46498dc6263d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.999999
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c55e3627933229b4199b46498dc6263d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3621,6 +4035,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &513222492
@@ -3793,11 +4210,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 40.617, y: 36.502, z: 27.11}
---- !u!4 &544482131 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-  m_PrefabInstance: {fileID: 2044246980}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &546022818
 GameObject:
   m_ObjectHideFlags: 0
@@ -3926,6 +4338,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1001 &557080816
@@ -4054,6 +4469,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &622907047
@@ -4255,6 +4673,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &647530313
@@ -4316,6 +4737,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &647530316
@@ -4446,6 +4870,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &662803024
@@ -4576,6 +5003,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &666591457
@@ -4655,7 +5085,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 685475340}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 15d80028dd403ba4aad8ca5bf8efd604, type: 3}
       propertyPath: m_LocalScale.x
@@ -4687,15 +5117,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15d80028dd403ba4aad8ca5bf8efd604, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15d80028dd403ba4aad8ca5bf8efd604, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15d80028dd403ba4aad8ca5bf8efd604, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 15d80028dd403ba4aad8ca5bf8efd604, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4726,6 +5156,46 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15d80028dd403ba4aad8ca5bf8efd604, type: 3}
+--- !u!1 &685475339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 685475340}
+  m_Layer: 0
+  m_Name: scence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &685475340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685475339}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1378920794}
+  - {fileID: 1436894962}
+  - {fileID: 1953121800}
+  - {fileID: 1662391905}
+  - {fileID: 1948956812}
+  - {fileID: 472219993}
+  - {fileID: 1149383071}
+  - {fileID: 2134071893}
+  - {fileID: 1801397934}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &710970896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4797,6 +5267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 728257748}
+  - component: {fileID: 728257749}
   m_Layer: 5
   m_Name: Riceui
   m_TagString: Untagged
@@ -4826,6 +5297,23 @@ RectTransform:
   m_AnchoredPosition: {x: 811.5, y: 403.25}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &728257749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728257747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4bbcd60f8a57ee4595fba0ca3f93a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPosition: {fileID: 2107967801}
+  uiPosition: {fileID: 728257748}
+  moveSpeed: 1
+  scaleSpeed: 0.5
+  targetScale: 3
 --- !u!1 &733064109
 GameObject:
   m_ObjectHideFlags: 0
@@ -4954,6 +5442,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &734498118
@@ -5015,6 +5506,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &734498121
@@ -5147,6 +5641,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &735471701
@@ -5282,6 +5779,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &748099140
@@ -5416,6 +5916,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &753473548
@@ -5546,6 +6049,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &753592578
@@ -5749,6 +6255,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &783351293
@@ -5808,6 +6317,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &783351296
@@ -6009,6 +6521,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &800197666
@@ -6068,6 +6583,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &800197669
@@ -6146,6 +6664,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 010e4c6d457dc5646a3a11ff139da6d7, type: 3}
   m_PrefabInstance: {fileID: 710970896}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &814762535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
+  m_PrefabInstance: {fileID: 1047780893}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &821011338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a6e50779c0943dd499742e9d596235b9, type: 3}
@@ -6212,6 +6735,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &827286590
@@ -6344,6 +6870,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &833454210
@@ -6497,6 +7026,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6e86213b15410dc43b9c64bde3a8d918, type: 3}
   m_PrefabInstance: {fileID: 1300527341}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &875620602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6558539711735971789, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
+  m_PrefabInstance: {fileID: 1047780893}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &881469921
 GameObject:
   m_ObjectHideFlags: 0
@@ -6558,6 +7092,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &881469924
@@ -6637,7 +7174,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 685475340}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7bc7ba0620f2ba04aa8ff7b9df5f06bf, type: 3}
       propertyPath: m_LocalScale.x
@@ -6645,15 +7182,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bc7ba0620f2ba04aa8ff7b9df5f06bf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 63
+      value: 61.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bc7ba0620f2ba04aa8ff7b9df5f06bf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.05
+      value: -8.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bc7ba0620f2ba04aa8ff7b9df5f06bf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.8
+      value: 26.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bc7ba0620f2ba04aa8ff7b9df5f06bf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6883,6 +7420,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &931363114
@@ -6896,7 +7436,6 @@ GameObject:
   - component: {fileID: 931363115}
   - component: {fileID: 931363118}
   - component: {fileID: 931363117}
-  - component: {fileID: 931363116}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -6919,27 +7458,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 20597976}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &931363116
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931363114}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &931363117
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7118,6 +7636,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &970879126
@@ -7248,6 +7769,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &980512161
@@ -7313,6 +7837,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &980512164
@@ -7386,6 +7913,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980512161}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1005234233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1005234234}
+  m_Layer: 5
+  m_Name: post
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1005234234
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005234233}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1657485059}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 780.5, y: 421.25}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1044165677
 GameObject:
   m_ObjectHideFlags: 0
@@ -7514,6 +8076,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1001 &1047780893
@@ -7576,6 +8141,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -8578850753061105613, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2de360c94e250f64f93fb2fc4c8de4a9, type: 2}
+    - target: {fileID: -4759122225633972870, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2de360c94e250f64f93fb2fc4c8de4a9, type: 2}
+    - target: {fileID: -3710043613973758085, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2de360c94e250f64f93fb2fc4c8de4a9, type: 2}
     - target: {fileID: 919132149155446097, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
       propertyPath: m_Name
       value: Item Circle
@@ -7583,7 +8160,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2005354531}
   m_SourcePrefab: {fileID: 100100000, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
 --- !u!1 &1053244063
 GameObject:
@@ -7713,6 +8293,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1001 &1055590942
@@ -7721,7 +8304,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 685475340}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e14c6d7cf5ca24d47aad64cf7bd58624, type: 3}
       propertyPath: m_LocalScale.x
@@ -7729,7 +8312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e14c6d7cf5ca24d47aad64cf7bd58624, type: 3}
       propertyPath: m_LocalScale.y
-      value: 331.35205
+      value: 331.35202
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e14c6d7cf5ca24d47aad64cf7bd58624, type: 3}
       propertyPath: m_LocalScale.z
@@ -7757,7 +8340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e14c6d7cf5ca24d47aad64cf7bd58624, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e14c6d7cf5ca24d47aad64cf7bd58624, type: 3}
       propertyPath: m_LocalRotation.z
@@ -7916,6 +8499,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1062203814
@@ -8046,6 +8632,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1080945574
@@ -8109,6 +8698,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1080945577
@@ -8239,6 +8831,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1109286550
@@ -8426,6 +9021,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3baf66627d05731498f41d68e58f6673, type: 3}
+--- !u!4 &1149383071 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 60c5fe60ddd67b148a96ebe4adae112f, type: 3}
+  m_PrefabInstance: {fileID: 1354346991}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1152715681
 GameObject:
   m_ObjectHideFlags: 0
@@ -8483,6 +9083,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1152715684
@@ -8756,6 +9359,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1198252325
@@ -8886,8 +9492,16 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
+--- !u!1 &1205794281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6440655124384224675, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
+  m_PrefabInstance: {fileID: 1047780893}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1228401575
 GameObject:
   m_ObjectHideFlags: 0
@@ -8947,6 +9561,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1228401578
@@ -9079,6 +9696,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1236667539
@@ -9280,6 +9900,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1290946403
@@ -9341,6 +9964,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1290946406
@@ -9473,6 +10099,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1299660121
@@ -9682,6 +10311,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1322142336
@@ -9883,6 +10515,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1332913570
@@ -10013,6 +10648,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!4 &1347623805 stripped
@@ -10150,6 +10788,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1349653192
@@ -10209,6 +10850,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1349653195
@@ -10341,6 +10985,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1350839025
@@ -10420,23 +11067,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 685475340}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 60c5fe60ddd67b148a96ebe4adae112f, type: 3}
       propertyPath: m_LocalScale.x
       value: 25.931242
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c5fe60ddd67b148a96ebe4adae112f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 619.66486
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 60c5fe60ddd67b148a96ebe4adae112f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.75
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c5fe60ddd67b148a96ebe4adae112f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c5fe60ddd67b148a96ebe4adae112f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.774
+      value: 13.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 60c5fe60ddd67b148a96ebe4adae112f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10605,6 +11256,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1371249978
@@ -10668,6 +11322,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1371249981
@@ -10874,6 +11531,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1383934977
@@ -10933,6 +11593,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1383934980
@@ -11065,6 +11728,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1401881551
@@ -11197,6 +11863,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1425631073
@@ -11270,6 +11939,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425631070}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1436894962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 15d80028dd403ba4aad8ca5bf8efd604, type: 3}
+  m_PrefabInstance: {fileID: 685457304}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1437521252
 GameObject:
   m_ObjectHideFlags: 0
@@ -11327,6 +12001,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1437521255
@@ -11524,6 +12201,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1460806176
@@ -11769,6 +12449,7 @@ MonoBehaviour:
   height1: 5
   height2: 11
   duration: 1
+  minSwipeDistance: 50
   object1: {fileID: 1993457089}
   object2: {fileID: 20597975}
 --- !u!1 &1499190381
@@ -11901,6 +12582,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1508016754
@@ -12031,6 +12715,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!4 &1512074375 stripped
@@ -12060,8 +12747,16 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.4
   stairOffset: 0.4
+--- !u!1 &1530609048 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6436904493177066834, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
+  m_PrefabInstance: {fileID: 1047780893}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1563292900
 GameObject:
   m_ObjectHideFlags: 0
@@ -12157,7 +12852,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1188542159}
+  - {fileID: 2107967801}
   - {fileID: 728257748}
+  - {fileID: 1657485059}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -12227,6 +12924,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1571307355
@@ -12428,6 +13128,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1591565343
@@ -12677,6 +13380,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1633574373
@@ -12750,6 +13456,45 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1633574370}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1657485058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657485059}
+  m_Layer: 5
+  m_Name: pikup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1657485059
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657485058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 460840075}
+  - {fileID: 109521271}
+  - {fileID: 498947746}
+  - {fileID: 1005234234}
+  m_Father: {fileID: 1563292904}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1659424645
 GameObject:
   m_ObjectHideFlags: 0
@@ -12811,6 +13556,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1659424648
@@ -12948,6 +13696,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1666893884
@@ -13078,6 +13829,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1677685181
@@ -13272,6 +14026,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1704202394
@@ -13402,6 +14159,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1724995964
@@ -13594,6 +14354,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1739310003
@@ -13884,6 +14647,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 1
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1774868958
@@ -13993,6 +14759,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1786651731
@@ -14127,6 +14896,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1788721487
@@ -14247,6 +15019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walking: 0
+  canMove: 1
   currentCube: {fileID: 0}
   clickedCube: {fileID: 0}
   finalPath: []
@@ -14274,7 +15047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801397933}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5.4457407, y: 3.4700246, z: 6.116211}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14283,7 +15056,7 @@ Transform:
   - {fileID: 725151382}
   - {fileID: 1758669180}
   - {fileID: 2005354530}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 685475340}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1805610784
 GameObject:
@@ -14342,6 +15115,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1805610787
@@ -14626,6 +15402,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!1 &1874299882
@@ -14687,6 +15466,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1874299885
@@ -14817,6 +15599,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1896425671
@@ -15059,12 +15844,25 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.4
   stairOffset: 0.4
 --- !u!4 &1933469220 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b7f1bb56118c1a64295fb9fcb31b77f1, type: 3}
   m_PrefabInstance: {fileID: 367123654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1948956812 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 889815d13fbf3bd4588e456ae231963d, type: 3}
+  m_PrefabInstance: {fileID: 312126574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1953121800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e14c6d7cf5ca24d47aad64cf7bd58624, type: 3}
+  m_PrefabInstance: {fileID: 1055590942}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1977544919
 GameObject:
@@ -15123,6 +15921,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1977544922
@@ -15326,6 +16127,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &1984760722
@@ -15432,7 +16236,7 @@ Transform:
   - {fileID: 505376785}
   - {fileID: 800197667}
   - {fileID: 76211461}
-  - {fileID: 544482131}
+  - {fileID: 400944877}
   m_Father: {fileID: 344256433}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2005354530 stripped
@@ -15440,6 +16244,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c31f1c4e2e7dc1243b2de4708191e738, type: 3}
   m_PrefabInstance: {fileID: 1047780893}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2005354531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814762535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae6be897bf0a8a4b9c6e6b63362cd31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatSpeed: 0.5
+  floatHeight: 0.05
+  rotationSpeed: 30
+  objects:
+  - {fileID: 814762535}
+  - {fileID: 875620602}
+  - {fileID: 1530609048}
+  materials:
+  - {fileID: 2100000, guid: 61a4d974924af63428b97139262b6ce3, type: 2}
+  - {fileID: 2100000, guid: 38e811ded3159a74e8e3448d2886ee85, type: 2}
+  - {fileID: 2100000, guid: 36cb5dca01a46bd47b3d0ef70f57f4d9, type: 2}
+  Relicfragments:
+  - {fileID: 1205794281}
+  - {fileID: 875620602}
+  - {fileID: 1530609048}
 --- !u!1 &2010990090
 GameObject:
   m_ObjectHideFlags: 0
@@ -15501,6 +16332,9 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &2010990093
@@ -15702,77 +16536,11 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
---- !u!1001 &2044246980
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1993457090}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 200.44794
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 56.72304
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.5991
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.9656
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.9879608
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: e6307178247f3ea4faaf3b8b5697de5f, type: 2}
-    - target: {fileID: 919132149155446097, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
-      propertyPath: m_Name
-      value: "\u6A4B"
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a7c3c4f69e001f942ada28a0123bfc6f, type: 3}
 --- !u!1 &2090106457
 GameObject:
   m_ObjectHideFlags: 0
@@ -15830,6 +16598,9 @@ MonoBehaviour:
   movingGround: 1
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.5
   stairOffset: 0.4
 --- !u!65 &2090106460
@@ -15930,8 +16701,46 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.4
   stairOffset: 0.4
+--- !u!1 &2107967800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107967801}
+  m_Layer: 5
+  m_Name: post
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2107967801
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107967800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1563292904}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 86, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &2121718373 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a6e50779c0943dd499742e9d596235b9, type: 3}
@@ -15959,8 +16768,16 @@ MonoBehaviour:
   movingGround: 0
   isButton: 0
   dontRotate: 0
+  redShard: 0
+  blueShard: 0
+  greenShard: 0
   walkPointOffset: 0.4
   stairOffset: 0.4
+--- !u!4 &2134071893 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7bc7ba0620f2ba04aa8ff7b9df5f06bf, type: 3}
+  m_PrefabInstance: {fileID: 907626750}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -15969,13 +16786,5 @@ SceneRoots:
   - {fileID: 1482367165}
   - {fileID: 526401132}
   - {fileID: 344256433}
-  - {fileID: 450478535}
-  - {fileID: 685457304}
-  - {fileID: 1055590942}
-  - {fileID: 357706360}
-  - {fileID: 312126574}
-  - {fileID: 513180328}
-  - {fileID: 1354346991}
-  - {fileID: 907626750}
-  - {fileID: 1801397934}
+  - {fileID: 685475340}
   - {fileID: 1563292904}

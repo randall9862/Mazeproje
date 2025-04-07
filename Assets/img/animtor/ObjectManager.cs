@@ -4,7 +4,7 @@ public class ObjectSwitcher
 {
     // 儲存物件的陣列
     private GameObject[] objects;
-    private Relicmagnification Relicmagnification;
+    private RelicMagnification Relicmagnification;
     public ObjectSwitcher(GameObject[] objectsToManage)
     {
         objects = objectsToManage;

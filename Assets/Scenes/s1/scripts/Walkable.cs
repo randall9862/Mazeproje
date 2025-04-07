@@ -18,7 +18,9 @@ public class Walkable : MonoBehaviour
     public bool movingGround = false;
     public bool isButton;
     public bool dontRotate;
-
+    public bool redShard;
+    public bool blueShard;
+    public bool greenShard;
     [Space]
 
     [Header("Offsets")]

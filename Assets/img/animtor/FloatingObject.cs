@@ -8,7 +8,7 @@ public class FloatingObject : MonoBehaviour//更換遺物材質
 
     public GameObject[] objects; // 儲存物件陣列
     public Material[] materials; // 儲存材質陣列
-    public GameObject[] Relicfragments;//碎片
+    public GameObject[] Relicfragments;//要消失場景碎片
 
     private Vector3 startPosition;
 
