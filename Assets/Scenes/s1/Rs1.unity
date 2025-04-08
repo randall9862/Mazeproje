@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18251619, g: 0.22822854, b: 0.3072269, a: 1}
+  m_IndirectSpecularColor: {r: 0.1825162, g: 0.22822852, b: 0.30722693, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2709,7 +2709,7 @@ GameObject:
   - component: {fileID: 405369942}
   - component: {fileID: 405369941}
   - component: {fileID: 405369940}
-  - component: {fileID: 405369943}
+  - component: {fileID: 405369944}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2791,7 +2791,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 30, y: 45, z: 0}
---- !u!114 &405369943
+--- !u!114 &405369944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2800,10 +2800,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 405369939}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1be1c492f0277394abce8f8869a7c206, type: 3}
+  m_Script: {fileID: 11500000, guid: 21b0b8b25a632d849ab3182be83bb8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundMat: {fileID: 2100000, guid: c1560f1923de2d749ab368ed9f4865a1, type: 2}
+  backgroundMat: {fileID: 2100000, guid: d6b01379a73982d41b6920b8e8cc32e6, type: 2}
+  cameraObject: {fileID: 405369939}
 --- !u!1 &424679881
 GameObject:
   m_ObjectHideFlags: 0
@@ -5309,7 +5310,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4bbcd60f8a57ee4595fba0ca3f93a3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetPosition: {fileID: 2107967801}
   uiPosition: {fileID: 728257748}
   moveSpeed: 1
   scaleSpeed: 0.5
@@ -15023,6 +15023,10 @@ MonoBehaviour:
   currentCube: {fileID: 0}
   clickedCube: {fileID: 0}
   finalPath: []
+  managedObjects: []
+  floatingObject: {fileID: 0}
+  relicMagnification: {fileID: 0}
+  fragmentMerge: {fileID: 0}
 --- !u!1 &1801397933
 GameObject:
   m_ObjectHideFlags: 0
