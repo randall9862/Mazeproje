@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     public RelicMagnification relicMagnification;
     public FragmentMerge fragmentMerge;
 
+    public GameObject Endimg;
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
@@ -160,6 +161,7 @@ public class PlayerController : MonoBehaviour
         {
             s.AppendCallback(() => {
                 clickedCube.GetComponent<Walkable>().blueShard = false;
+                GameManager.instance.Relics++;
                 objectSwitcher.TurnOnAt(0);
                 relicMagnification.SwitchMagnification();
                 fragmentMerge.StartEnlargeEffect(0);
@@ -171,6 +173,7 @@ public class PlayerController : MonoBehaviour
         {
             s.AppendCallback(() => {
                 clickedCube.GetComponent<Walkable>().greenShard = false;
+                GameManager.instance.Relics++;
                 objectSwitcher.TurnOnAt(1);
                 relicMagnification.SwitchMagnification();
                 fragmentMerge.StartEnlargeEffect(1);
@@ -182,6 +185,7 @@ public class PlayerController : MonoBehaviour
         {
             s.AppendCallback(() => {
                 clickedCube.GetComponent<Walkable>().redShard = false;
+                GameManager.instance.Relics++;
                 objectSwitcher.TurnOnAt(2);
                 relicMagnification.SwitchMagnification();
                 fragmentMerge.StartEnlargeEffect(2);
@@ -189,7 +193,14 @@ public class PlayerController : MonoBehaviour
                 floatingObject.SetObjectMaterial(2, 2);
             });
         }
-        s.AppendCallback(() => Clear());
+        if (clickedCube.GetComponent<Walkable>().end)
+        {
+            s.AppendCallback(() => {
+                clickedCube.GetComponent<Walkable>().end = false;
+                Endimg.SetActive(true);
+            });
+        }
+            s.AppendCallback(() => Clear());
     }
 
     void Clear()

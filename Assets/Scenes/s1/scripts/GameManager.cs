@@ -14,11 +14,19 @@ public class GameManager : MonoBehaviour
 
     public Transform[] objectsToHide;
 
+    public int Relics = 0;
+    public ButtonHandler buttonHandler;
+    public GameObject prefab;         
+  
+
     private void Awake()
     {
         instance = this;
     }
-
+    private void Start()
+    {
+        Relics = 0;
+    }
     void Update()
     {
         foreach (PathCondition pc in pathConditions)
@@ -62,6 +70,12 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
+        }
+        if (Relics>=3)
+        {
+            buttonHandler.SetButtonState(true);
+            prefab.SetActive(true);
+            Relics = 0;
         }
     }
 

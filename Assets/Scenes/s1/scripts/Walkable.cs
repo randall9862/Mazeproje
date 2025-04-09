@@ -21,6 +21,7 @@ public class Walkable : MonoBehaviour
     public bool redShard;
     public bool blueShard;
     public bool greenShard;
+    public bool end;
     [Space]
 
     [Header("Offsets")]
