@@ -83,7 +83,7 @@ public class RelicMagnification : MonoBehaviour
         }
 
         isAnimating = false;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.5f);//點擊恢復結束
         canRestore = true;
     }
 
