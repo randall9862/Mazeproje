@@ -9,11 +9,12 @@ public class PlayerController : MonoBehaviour
     public bool walking = false;
 
     public bool canMove = true;
+    private bool isMoving = false;
 
     [Space]
     public Transform currentCube;
     public Transform clickedCube;
-    //public Transform indicator;
+    public Transform indicator;
 
     [Space]
     public List<Transform> finalPath = new List<Transform>();
@@ -25,7 +26,7 @@ public class PlayerController : MonoBehaviour
     private ObjectSwitcher objectSwitcher;
 
     public FloatingObject floatingObject;
-    public RelicMagnification relicMagnification;
+   // public RelicMagnification relicMagnification;
     public FragmentMerge fragmentMerge;
 
     public GameObject Endimg;
@@ -50,7 +51,7 @@ public class PlayerController : MonoBehaviour
             transform.parent = null;
         }
        // 增加檢查 canMove
-        if (!canMove) return;
+        if (!canMove || isMoving) return;
         // CLICK ON CUBE
         if (Input.GetMouseButtonDown(0))
         {
@@ -66,12 +67,12 @@ public class PlayerController : MonoBehaviour
                     finalPath.Clear();
                     FindPath();
                     blend = transform.position.y - clickedCube.position.y > 0 ? -1 : 1;
-                   /* indicator.position = mouseHit.transform.GetComponent<Walkable>().GetWalkPoint();
+                    indicator.position = mouseHit.transform.GetComponent<Walkable>().GetWalkPoint();
                     Sequence s = DOTween.Sequence();
                     s.AppendCallback(() => indicator.GetComponentInChildren<ParticleSystem>().Play());
                     s.Append(indicator.GetComponent<Renderer>().material.DOColor(Color.white, .1f));
                     s.Append(indicator.GetComponent<Renderer>().material.DOColor(Color.black, .3f).SetDelay(.2f));
-                    s.Append(indicator.GetComponent<Renderer>().material.DOColor(Color.clear, .3f));*/
+                    s.Append(indicator.GetComponent<Renderer>().material.DOColor(Color.clear, .3f));
                 }
             }
         }
@@ -142,6 +143,7 @@ public class PlayerController : MonoBehaviour
     {
         Sequence s = DOTween.Sequence();
         walking = true;
+        isMoving = true;
         animator.SetBool("isWalking", true);
 
         for (int i = finalPath.Count - 1; i > 0; i--)
@@ -163,7 +165,7 @@ public class PlayerController : MonoBehaviour
                 clickedCube.GetComponent<Walkable>().blueShard = false;
                 GameManager.instance.Relics++;
                 objectSwitcher.TurnOnAt(0);
-                relicMagnification.SwitchMagnification();
+               // relicMagnification.SwitchMagnification();
                 fragmentMerge.StartEnlargeEffect(0);
                 floatingObject.DisableRelicsbiue();
                 floatingObject.SetObjectMaterial(0, 0);
@@ -175,7 +177,7 @@ public class PlayerController : MonoBehaviour
                 clickedCube.GetComponent<Walkable>().greenShard = false;
                 GameManager.instance.Relics++;
                 objectSwitcher.TurnOnAt(1);
-                relicMagnification.SwitchMagnification();
+                //relicMagnification.SwitchMagnification();
                 fragmentMerge.StartEnlargeEffect(1);
                 floatingObject.DisableRelicsgreen();
                 floatingObject.SetObjectMaterial(1, 1);
@@ -187,7 +189,7 @@ public class PlayerController : MonoBehaviour
                 clickedCube.GetComponent<Walkable>().redShard = false;
                 GameManager.instance.Relics++;
                 objectSwitcher.TurnOnAt(2);
-                relicMagnification.SwitchMagnification();
+                //relicMagnification.SwitchMagnification();
                 fragmentMerge.StartEnlargeEffect(2);
                 floatingObject.DisableRelicsred();
                 floatingObject.SetObjectMaterial(2, 2);
@@ -198,9 +200,13 @@ public class PlayerController : MonoBehaviour
             s.AppendCallback(() => {
                 clickedCube.GetComponent<Walkable>().end = false;
                 Endimg.SetActive(true);
+                SetPlayerMovement(false);// 禁用玩家移動
             });
         }
-            s.AppendCallback(() => Clear());
+            s.AppendCallback(() => {
+                Clear();
+                isMoving = false;
+            });
     }
 
     void Clear()
