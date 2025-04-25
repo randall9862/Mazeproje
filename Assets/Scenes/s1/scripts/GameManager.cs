@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     public Transform[] objectsToHide;
 
-    public int Relics = 0;
+    public int Relics ;
     public ButtonHandler buttonHandler;
     public GameObject prefab;         
   
@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
         }
-        if (Relics>=3)
+        if (Relics==3)
         {
             buttonHandler.SetButtonState(true);
             prefab.SetActive(true);

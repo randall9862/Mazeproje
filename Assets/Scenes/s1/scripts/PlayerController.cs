@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     private ObjectSwitcher objectSwitcher;
 
     public FloatingObject floatingObject;
-   // public RelicMagnification relicMagnification;
+  //  public RelicMagnification relicMagnification;
     public FragmentMerge fragmentMerge;
 
     public GameObject Endimg;
@@ -177,7 +177,7 @@ public class PlayerController : MonoBehaviour
                 clickedCube.GetComponent<Walkable>().greenShard = false;
                 GameManager.instance.Relics++;
                 objectSwitcher.TurnOnAt(1);
-                //relicMagnification.SwitchMagnification();
+              //  relicMagnification.SwitchMagnification();
                 fragmentMerge.StartEnlargeEffect(1);
                 floatingObject.DisableRelicsgreen();
                 floatingObject.SetObjectMaterial(1, 1);
@@ -189,7 +189,7 @@ public class PlayerController : MonoBehaviour
                 clickedCube.GetComponent<Walkable>().redShard = false;
                 GameManager.instance.Relics++;
                 objectSwitcher.TurnOnAt(2);
-                //relicMagnification.SwitchMagnification();
+               // relicMagnification.SwitchMagnification();
                 fragmentMerge.StartEnlargeEffect(2);
                 floatingObject.DisableRelicsred();
                 floatingObject.SetObjectMaterial(2, 2);
@@ -200,13 +200,13 @@ public class PlayerController : MonoBehaviour
             s.AppendCallback(() => {
                 clickedCube.GetComponent<Walkable>().end = false;
                 Endimg.SetActive(true);
-                SetPlayerMovement(false);// 禁用玩家移動
+                SetPlayerMovement(false);
             });
         }
-            s.AppendCallback(() => {
-                Clear();
-                isMoving = false;
-            });
+        s.AppendCallback(() => {
+            Clear();
+            isMoving = false;
+        });
     }
 
     void Clear()
